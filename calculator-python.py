@@ -3,7 +3,7 @@ import math
 def number_float():
     while True:
         try:
-            numS = float(input("Введите число: "))
+            numS = float(input(f"Введите число: "))
             return numS
         except ValueError:
             print("Число введено неверно!")
@@ -79,4 +79,5 @@ def calculator():
                  exit()
         except ValueError:
             print(f"\nНеизвестная комманда")
-calculator()
+calculator() 
+
